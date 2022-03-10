@@ -1,14 +1,8 @@
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+// Variables
+@import 'variables';
 
-.comic{
-    flex-basis: 22%;
-}
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
