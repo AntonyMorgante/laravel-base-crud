@@ -12,9 +12,9 @@
         <p>Prezzo: {{$comic->price}}</p>
     <a href="{{route('comics.index')}}"><button type="button" class="btn btn-primary">Torna alla lista dei fumetti</button></a>
     <a href="{{route('comics.edit', $comic->id)}}"><button type="button" class="btn btn-primary">Modifica</button></a>
-    <form action="{{route('comics.destroy', $comic->id)}}" method="POST" class="d-inline-block">
+    <form action="{{route('comics.destroy', $comic->id)}}" method="POST" class="d-inline-block" onsubmit="return confirm('Sei sicuro di voler eliminare questo fumetto?')">
         @csrf
         @method("DELETE")
-        <button type="submit" class="btn btn-danger">Elimina</button>
+        <button type="submit" class="btn btn-danger" onclick="askConfirmation()">Elimina</button>
     </form>
     </div> 

@@ -37,6 +37,6 @@
             <label for="type" class="form-label">Genere</label>
             <input type="text" class="form-control" id="type" name="type" placeholder="Inserisci il genere a cui appartiene il fumetto">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Modifica</button>
     </form>
 </div>

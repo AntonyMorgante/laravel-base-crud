@@ -14,7 +14,7 @@
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Descrizione</label>
-            <input type="text" class="form-control" id="description" name="description" placeholder="Inserisci una breve descrizione">
+            <textarea class="form-control" id="description" name="description" placeholder="Inserisci una descrizione del fumetto"></textarea>
         </div>
         <div class="mb-3">
             <label for="thumb" class="form-label">Copertina</label>
@@ -36,6 +36,6 @@
             <label for="type" class="form-label">Genere</label>
             <input type="text" class="form-control" id="type" name="type" placeholder="Inserisci il genere a cui appartiene il fumetto">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Aggiungi</button>
     </form>
 </div>
